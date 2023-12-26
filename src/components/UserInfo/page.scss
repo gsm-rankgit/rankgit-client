@@ -1,0 +1,48 @@
+.userinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 15px;
+  width: 50vw;
+  color: black;
+  font-size: 20px;
+
+  .name {
+    color: black;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(50vw - (50vw - 10.5em)/2);
+
+    img {
+      width: 70px;
+      height: 70px;
+      object-fit: scale-down;
+      background-color: lightgray;
+      border-radius: 200px;
+    }
+
+    .achievements {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: calc(13em);
+    }
+  }
+
+  .ranking {
+    font-weight: bold;
+    font-size: 30px;
+  }
+}

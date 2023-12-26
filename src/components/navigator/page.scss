@@ -11,9 +11,11 @@
     font-weight: bold;
   }
 
-  img {
+  .img {
     width: 64px;
     height: 64px;
     object-fit: scale-down;
+    border-radius: 100px;
+    background-color: white;
   }
 }

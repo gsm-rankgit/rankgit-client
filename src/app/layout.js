@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'RankGit',
-  description: '깃허브 랭킹을 위한 서비스',
+  description: '깃허브 랭킹 서비스',
 }
 
 export default function RootLayout({ children }) {
