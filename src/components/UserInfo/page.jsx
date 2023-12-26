@@ -1,11 +1,10 @@
 import './page.scss'
-import Image from "next/image";
 
-export default function UserInfo({ img, name, github, commit, pr, issue, review, ranking }) {
+export default function UserInfo({ img, name, commit, pr, issue, review, ranking }) {
   return <div className="userinfo">
     <main>
-      <Image src={img} />
-      <a href={github} target='_blank' className="name">
+      <img src={img} />
+      <a href={`https://github.com/${name}`} target='_blank' className="name">
         {name}
       </a>
       <div className='achievements'>
