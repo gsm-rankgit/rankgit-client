@@ -3,6 +3,7 @@ import Navigator from '@/components/navigator/page'
 import './page.scss'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
+import Footer from '@/components/Footer/page'
 
 export default function User({ params }) {
   const GitHubUrl = 'https://api.github.com'
@@ -99,5 +100,6 @@ export default function User({ params }) {
         </span>
       </button>
     </main>
+    <Footer />
   </div>
 }

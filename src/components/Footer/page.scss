@@ -1,8 +1,10 @@
 .Footer {
-  // position: fixed;
+  height: 50px;
   background-color: #1F1B1B;
   width: 100%;
-  // bottom: 0; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 40px;
