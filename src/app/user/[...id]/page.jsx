@@ -100,6 +100,6 @@ export default function User({ params }) {
         </span>
       </button>
     </main>
-    <Footer />
+    {/* <Footer /> */}
   </div>
 }
