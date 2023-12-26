@@ -1,0 +1,19 @@
+.Navigator {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // margin-bottom: -30px;
+  margin: 20px 0;
+
+  span {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  img {
+    width: 64px;
+    height: 64px;
+    object-fit: scale-down;
+  }
+}
