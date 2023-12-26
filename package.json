@@ -14,7 +14,8 @@
     "node-sass": "^9.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "recoil": "^0.7.7"
+    "recoil": "^0.7.7",
+    "sass": "^1.69.5"
   },
   "devDependencies": {
     "eslint": "^8",
