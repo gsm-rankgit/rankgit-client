@@ -11,15 +11,22 @@
     }
   }
 
-  .users {
+  .userContainer {
     display: flex;
-    flex-direction: column;
+    margin: auto;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
     overflow-y: scroll;
-    width: 100vw;
-    position: absolute;
-    left: 0;
-    height: 75vh;
+    width: calc(50vw + 50px);
+    max-height: 75vh;
+
+    .users {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }
